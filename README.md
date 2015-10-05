@@ -5,3 +5,18 @@ This is a small, simple, Java Spring Boot application suitable for use as a demo
 
 To be easily "forkable" in Git, this needs to be a top-level project in the repository.
 
+## Clone the repository
+```
+git clone https://github.com/tracyde/CloudFoundry-EnvironmentDemo.git
+```
+
+## Compile and build
+```
+cd CloudFoundry-EnvironmentDemo
+mvn package
+```
+
+## Push to CloudFoundry
+```
+cf push
+```
